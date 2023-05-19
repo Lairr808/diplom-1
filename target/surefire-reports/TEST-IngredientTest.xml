@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="0" name="IngredientTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="18" failures="0" name="IngredientTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -67,9 +67,9 @@
   <testcase classname="IngredientTest" name="checkGetTypeIngredient[0]" time="0"/>
   <testcase classname="IngredientTest" name="checkGetNameIngredient[0]" time="0"/>
   <testcase classname="IngredientTest" name="checkGetPriceIngredient[0]" time="0"/>
-  <testcase classname="IngredientTest" name="checkGetTypeIngredient[1]" time="0.005"/>
+  <testcase classname="IngredientTest" name="checkGetTypeIngredient[1]" time="0"/>
   <testcase classname="IngredientTest" name="checkGetNameIngredient[1]" time="0"/>
-  <testcase classname="IngredientTest" name="checkGetPriceIngredient[1]" time="0"/>
+  <testcase classname="IngredientTest" name="checkGetPriceIngredient[1]" time="0.001"/>
   <testcase classname="IngredientTest" name="checkGetTypeIngredient[2]" time="0"/>
   <testcase classname="IngredientTest" name="checkGetNameIngredient[2]" time="0"/>
   <testcase classname="IngredientTest" name="checkGetPriceIngredient[2]" time="0"/>
