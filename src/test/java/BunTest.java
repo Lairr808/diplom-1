@@ -19,8 +19,15 @@ public class BunTest {
     public static Object[][] getTestData(){
         return new Object[][]{
                 {"black bun", 100},
-                {"white bun", 200},
-                {"red bun", 300},
+                {null, 200},
+                {"", 300},
+                {"fghfxhtfgvcserfcwerawesxqweveerdeqaxeweqwqw", 300},
+                {"#", 300},
+                {"red bun", -300},
+                {"red bun", 0},
+                {"red bun", -1},
+                {"red bun", 3.4E+38f},
+                {"red bun", Float.MIN_VALUE},
         };
     }
 

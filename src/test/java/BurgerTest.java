@@ -46,6 +46,18 @@ public class BurgerTest {
     }
 
     @Test
+    public void checkGetPrice(){
+        Burger burger = new Burger();
+        burger.addIngredient(ingredient);
+        burger.setBuns(bun);
+        Mockito.when(ingredient.getPrice()).thenReturn(100.00F);
+        Mockito.when(bun.getPrice()).thenReturn(100.00F);
+        assertEquals(burger.getPrice(), 300, 0);
+        Mockito.verify(bun, Mockito.times(1)).getPrice();
+        Mockito.verify(ingredient, Mockito.times(1)).getPrice();
+    }
+
+    @Test
     public void checkReceiptTest(){
         Burger burger = new Burger();
         burger.addIngredient(ingredient);

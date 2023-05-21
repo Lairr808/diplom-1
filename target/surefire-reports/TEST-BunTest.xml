@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="BunTest" time="0.018" errors="0" skipped="0">
+<testsuite tests="20" failures="0" name="BunTest" time="0.033" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -64,10 +64,24 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="BunTest" name="checkGetPriceBun[0]" time="0.015"/>
-  <testcase classname="BunTest" name="checkGetNameBun[0]" time="0"/>
-  <testcase classname="BunTest" name="checkGetPriceBun[1]" time="0"/>
-  <testcase classname="BunTest" name="checkGetNameBun[1]" time="0.003"/>
+  <testcase classname="BunTest" name="checkGetPriceBun[0]" time="0.017"/>
+  <testcase classname="BunTest" name="checkGetNameBun[0]" time="0.002"/>
+  <testcase classname="BunTest" name="checkGetPriceBun[1]" time="0.003"/>
+  <testcase classname="BunTest" name="checkGetNameBun[1]" time="0"/>
   <testcase classname="BunTest" name="checkGetPriceBun[2]" time="0"/>
-  <testcase classname="BunTest" name="checkGetNameBun[2]" time="0"/>
+  <testcase classname="BunTest" name="checkGetNameBun[2]" time="0.001"/>
+  <testcase classname="BunTest" name="checkGetPriceBun[3]" time="0"/>
+  <testcase classname="BunTest" name="checkGetNameBun[3]" time="0"/>
+  <testcase classname="BunTest" name="checkGetPriceBun[4]" time="0"/>
+  <testcase classname="BunTest" name="checkGetNameBun[4]" time="0"/>
+  <testcase classname="BunTest" name="checkGetPriceBun[5]" time="0"/>
+  <testcase classname="BunTest" name="checkGetNameBun[5]" time="0.001"/>
+  <testcase classname="BunTest" name="checkGetPriceBun[6]" time="0"/>
+  <testcase classname="BunTest" name="checkGetNameBun[6]" time="0"/>
+  <testcase classname="BunTest" name="checkGetPriceBun[7]" time="0.001"/>
+  <testcase classname="BunTest" name="checkGetNameBun[7]" time="0.003"/>
+  <testcase classname="BunTest" name="checkGetPriceBun[8]" time="0"/>
+  <testcase classname="BunTest" name="checkGetNameBun[8]" time="0.001"/>
+  <testcase classname="BunTest" name="checkGetPriceBun[9]" time="0"/>
+  <testcase classname="BunTest" name="checkGetNameBun[9]" time="0.004"/>
 </testsuite>
